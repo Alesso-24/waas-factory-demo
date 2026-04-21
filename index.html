@@ -3,42 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paulet Repostería</title>
+    <title>Coppel</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-    <header class="bg-rose-500 text-white p-4 text-center">
-        <h1 class="text-3xl font-bold">Paulet Repostería</h1>
+    <header class="bg-blue-500 text-white p-4 text-center">
+        <h1 class="text-3xl font-bold">Coppel</h1>
+        <p class="text-lg">Compre productos de varias compañías en un solo lugar</p>
     </header>
     <main class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
-        <section class="bg-white rounded shadow-md p-4 md:p-6 lg:p-8">
-            <h2 class="text-2xl font-bold mb-4">Bienvenidos a Paulet Repostería</h2>
-            <p class="text-lg mb-6">En Paulet Repostería, nos apasiona crear deliciosos dulces y pasteles para cualquier ocasión. Nuestros productos están hechos con amor y dedicación, utilizando solo los ingredientes más frescos y de alta calidad.</p>
-            <button class="bg-rose-500 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded">Descubre nuestros productos</button>
+        <section class="flex flex-wrap justify-center mb-12">
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-6">
+                <h2 class="text-2xl font-bold mb-4">Electrodomésticos</h2>
+                <ul>
+                    <li class="mb-2">Neveras</li>
+                    <li class="mb-2">Lavadoras</li>
+                    <li class="mb-2">Secadoras</li>
+                </ul>
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-6">
+                <h2 class="text-2xl font-bold mb-4">Tecnología</h2>
+                <ul>
+                    <li class="mb-2">Smartphones</li>
+                    <li class="mb-2">Laptops</li>
+                    <li class="mb-2">Tabletas</li>
+                </ul>
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-6">
+                <h2 class="text-2xl font-bold mb-4">Hogar y Jardín</h2>
+                <ul>
+                    <li class="mb-2">Muebles</li>
+                    <li class="mb-2">Decoración</li>
+                    <li class="mb-2">Jardinería</li>
+                </ul>
+            </div>
         </section>
-        <section class="mt-8">
-            <h2 class="text-2xl font-bold mb-4">Nuestros productos</h2>
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Ofertas especiales</h2>
             <div class="flex flex-wrap justify-center">
-                <div class="w-full md:w-1/2 xl:w-1/3 p-4">
-                    <img src="https://via.placeholder.com/300" alt="Pastel de chocolate" class="rounded shadow-md">
-                    <h3 class="text-lg font-bold mb-2">Pastel de chocolate</h3>
-                    <p class="text-lg mb-4">Un delicioso pastel de chocolate hecho con los mejores ingredientes.</p>
+                <div class="w-full lg:w-1/2 xl:w-1/3 p-6 bg-white rounded shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Nevera de 2 puertas</h3>
+                    <p class="text-lg mb-2">Descuento del 20%</p>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Comprar</button>
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-4">
-                    <img src="https://via.placeholder.com/300" alt="Torta de vainilla" class="rounded shadow-md">
-                    <h3 class="text-lg font-bold mb-2">Torta de vainilla</h3>
-                    <p class="text-lg mb-4">Una torta de vainilla suave y esponjosa, perfecta para cualquier ocasión.</p>
+                <div class="w-full lg:w-1/2 xl:w-1/3 p-6 bg-white rounded shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Laptop de 15 pulgadas</h3>
+                    <p class="text-lg mb-2">Descuento del 15%</p>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Comprar</button>
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/3 p-4">
-                    <img src="https://via.placeholder.com/300" alt="Galletas de chocolate" class="rounded shadow-md">
-                    <h3 class="text-lg font-bold mb-2">Galletas de chocolate</h3>
-                    <p class="text-lg mb-4">Galletas de chocolate crujientes y deliciosas, perfectas para un snack.</p>
+            </div>
+        </section>
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Nuestras marcas</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-1/3 xl:w-1/4 p-6">
+                    <img src="https://via.placeholder.com/150" alt="Marca 1">
+                </div>
+                <div class="w-full lg:w-1/3 xl:w-1/4 p-6">
+                    <img src="https://via.placeholder.com/150" alt="Marca 2">
+                </div>
+                <div class="w-full lg:w-1/3 xl:w-1/4 p-6">
+                    <img src="https://via.placeholder.com/150" alt="Marca 3">
                 </div>
             </div>
         </section>
     </main>
-    <footer class="bg-rose-500 text-white p-4 text-center">
-        <p>&copy; 2023 Paulet Repostería. Todos los derechos reservados.</p>
+    <footer class="bg-blue-500 text-white p-4 text-center">
+        <p>&copy; 2023 Coppel. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
