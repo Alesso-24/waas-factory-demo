@@ -7,44 +7,48 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-    <header class="bg-rose-500 text-white p-4 text-center">
-        <h1 class="text-3xl font-bold">Paulet Repostería</h1>
+    <header class="bg-azul-rey text-white py-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Paulet Repostería</a>
+            <ul class="flex items-center space-x-4">
+                <li><a href="#" class="hover:text-gray-300">Inicio</a></li>
+                <li><a href="#" class="hover:text-gray-300">Nuestros productos</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
-        <section class="text-center mb-12">
-            <h2 class="text-2xl font-bold mb-4">Bienvenidos a Paulet Repostería</h2>
-            <p class="text-lg">Descubre nuestros deliciosos pasteles y repostería artesanal</p>
+    <main class="container mx-auto py-12">
+        <section class="bg-white rounded-lg shadow-lg p-8">
+            <h1 class="text-3xl font-bold mb-4">Bienvenidos a Paulet Repostería</h1>
+            <p class="text-lg mb-8">En Paulet Repostería nos apasiona crear deliciosos productos para satisfacer tus antojos. Nuestros productos están hechos con amor y dedicación para que puedas disfrutar de la mejor repostería.</p>
+            <button class="bg-azul-rey text-white py-2 px-4 rounded-lg hover:bg-gray-700">Descubre nuestros productos</button>
         </section>
-        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-            <div class="bg-white rounded shadow-md p-4">
-                <h3 class="text-xl font-bold mb-2">Pasteles</h3>
-                <p class="text-lg">Nuestros pasteles son elaborados con ingredientes frescos y de alta calidad</p>
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold mb-4">Nuestros productos destacados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <img src="https://via.placeholder.com/200x150" alt="Imagen de producto" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Torta de chocolate</h3>
+                    <p class="text-lg mb-4">Deliciosa torta de chocolate hecha con los mejores ingredientes.</p>
+                    <button class="bg-azul-rey text-white py-2 px-4 rounded-lg hover:bg-gray-700">Comprar</button>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <img src="https://via.placeholder.com/200x150" alt="Imagen de producto" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Galletas de vainilla</h3>
+                    <p class="text-lg mb-4">Galletas de vainilla frescas y deliciosas para acompañar tu té o café.</p>
+                    <button class="bg-azul-rey text-white py-2 px-4 rounded-lg hover:bg-gray-700">Comprar</button>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <img src="https://via.placeholder.com/200x150" alt="Imagen de producto" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Tarta de frutas</h3>
+                    <p class="text-lg mb-4">Tarta de frutas frescas y deliciosas para cualquier ocasión.</p>
+                    <button class="bg-azul-rey text-white py-2 px-4 rounded-lg hover:bg-gray-700">Comprar</button>
+                </div>
             </div>
-            <div class="bg-white rounded shadow-md p-4">
-                <h3 class="text-xl font-bold mb-2">Repostería</h3>
-                <p class="text-lg">Nuestra repostería es artesanal y hecha con amor</p>
-            </div>
-            <div class="bg-white rounded shadow-md p-4">
-                <h3 class="text-xl font-bold mb-2">Servicios</h3>
-                <p class="text-lg">Ofrecemos servicios de catering y entrega a domicilio</p>
-            </div>
-        </section>
-        <section class="text-center mb-12">
-            <h2 class="text-2xl font-bold mb-4">Galería de productos</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <img src="https://via.placeholder.com/300" alt="Imagen de pastel" class="w-full h-full object-cover rounded">
-                <img src="https://via.placeholder.com/300" alt="Imagen de repostería" class="w-full h-full object-cover rounded">
-                <img src="https://via.placeholder.com/300" alt="Imagen de servicio" class="w-full h-full object-cover rounded">
-            </div>
-        </section>
-        <section class="text-center mb-12">
-            <h2 class="text-2xl font-bold mb-4">Contacto</h2>
-            <p class="text-lg">¡Contáctanos para más información o para hacer un pedido!</p>
-            <a href="#" class="bg-rose-500 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded">Contactar</a>
         </section>
     </main>
-    <footer class="bg-rose-500 text-white p-4 text-center">
-        <p class="text-lg">Paulet Repostería &copy; 2023</p>
+    <footer class="bg-azul-rey text-white py-4 text-center">
+        <p>&copy; 2023 Paulet Repostería. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
