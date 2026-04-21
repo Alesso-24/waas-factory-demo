@@ -3,133 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasteles Alegres - Repostería para endulzar tu día</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Alesso - Soluciones Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Quicksand', sans-serif;
-        }
-        .font-pacifico {
-            font-family: 'Pacifico', cursive;
+        :root {
+            --color-azul-rey: #032B44;
         }
     </style>
 </head>
-<body class="bg-rose-50 text-gray-800">
-
-    <!-- Header -->
-    <header class="bg-white shadow-md py-4">
-        <div class="container mx-auto px-6 flex justify-between items-center">
-            <a href="#" class="text-3xl font-bold text-rose-500 font-pacifico">Pasteles Alegres</a>
-            <nav>
-                <ul class="flex space-x-6">
-                    <li><a href="#inicio" class="text-gray-700 hover:text-rose-600 transition duration-300">Inicio</a></li>
-                    <li><a href="#nosotros" class="text-gray-700 hover:text-rose-600 transition duration-300">Nosotros</a></li>
-                    <li><a href="#productos" class="text-gray-700 hover:text-rose-600 transition duration-300">Productos</a></li>
-                    <li><a href="#contacto" class="text-gray-700 hover:text-rose-600 transition duration-300">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+<body class="bg-gray-100">
+    <header class="bg-azul-rey text-white p-4 text-center">
+        <h1 class="text-3xl font-bold">Alesso</h1>
+        <p class="text-xl">Soluciones Web para Empresas y Estudiantes Tech</p>
     </header>
-
-    <!-- Hero Section -->
-    <section id="inicio" class="bg-gradient-to-r from-rose-100 to-rose-200 py-20 px-6 text-center">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
-            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-8">
-                <h1 class="text-5xl md:text-6xl font-extrabold text-rose-800 leading-tight mb-6 font-pacifico">
-                    Endulza Tu Día con <span class="text-rose-900">Pasteles Alegres</span>
-                </h1>
-                <p class="text-xl text-gray-700 mb-8 max-w-lg mx-auto">
-                    La repostería más deliciosa y creativa para celebrar cada momento especial. ¡Hechos con amor para ti!
-                </p>
-                <a href="#productos" class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                    Ver Nuestros Deliciosos Productos
-                </a>
-            </div>
-            <div class="md:w-1/2">
-                <img src="https://via.placeholder.com/500x400/F472B6/FFFFFF?text=Tu+Pastel+Soñado" alt="Pastel de cumpleaños colorido y feliz" class="rounded-lg shadow-xl mx-auto w-full max-w-md">
-            </div>
-        </div>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="nosotros" class="py-16 px-6 bg-white">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-rose-700 mb-8 font-pacifico">Nuestra Dulce Historia</h2>
-            <div class="max-w-3xl mx-auto text-gray-700 leading-relaxed text-lg">
-                <p class="mb-4">
-                    En <span class="font-bold text-rose-500">Pasteles Alegres</span>, creemos que cada postre es una oportunidad para crear un recuerdo feliz. Desde pequeños cupcakes hasta majestuosos pasteles de boda, cada creación es horneada con los ingredientes más frescos y una pizca extra de pasión.
-                </p>
-                <p>
-                    Nacimos de un sueño de endulzar la vida de las personas, y hoy nos enorgullece ofrecer una amplia variedad de delicias que no solo deleitan el paladar, sino que también alegran el corazón. ¡Déjanos ser parte de tus celebraciones!
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section id="productos" class="py-16 px-6 bg-rose-50">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-rose-700 mb-12 font-pacifico">Nuestras Delicias</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <!-- Product Card 1 -->
-                <div class="bg-white rounded-lg shadow-md p-6 transform hover:scale-105 transition duration-300">
-                    <img src="https://via.placeholder.com/300x200/F472B6/FFFFFF?text=Pasteles+Personalizados" alt="Pasteles Personalizados" class="w-full h-48 object-cover rounded-md mb-4">
-                    <h3 class="text-2xl font-semibold text-rose-600 mb-2">Pasteles Personalizados</h3>
-                    <p class="text-gray-600">Desde cumpleaños hasta aniversarios, creamos el pastel perfecto para tu ocasión especial.</p>
-                </div>
-                <!-- Product Card 2 -->
-                <div class="bg-white rounded-lg shadow-md p-6 transform hover:scale-105 transition duration-300">
-                    <img src="https://via.placeholder.com/300x200/F472B6/FFFFFF?text=Cupcakes+Variados" alt="Cupcakes Variados" class="w-full h-48 object-cover rounded-md mb-4">
-                    <h3 class="text-2xl font-semibold text-rose-600 mb-2">Cupcakes Variados</h3>
-                    <p class="text-gray-600">Pequeñas obras de arte, ideales para cualquier antojo o detalle.</p>
-                </div>
-                <!-- Product Card 3 -->
-                <div class="bg-white rounded-lg shadow-md p-6 transform hover:scale-105 transition duration-300">
-                    <img src="https://via.placeholder.com/300x200/F472B6/FFFFFF?text=Mesa+de+Postres" alt="Mesa de Postres" class="w-full h-48 object-cover rounded-md mb-4">
-                    <h3 class="text-2xl font-semibold text-rose-600 mb-2">Mesas de Postres</h3>
-                    <p class="text-gray-600">La selección más exquisita de postres para tu evento, diseñada a tu gusto.</p>
-                </div>
-            </div>
-            <a href="#contacto" class="mt-12 inline-block bg-rose-700 hover:bg-rose-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                ¡Pide Tu Cotización Ahora!
-            </a>
-        </div>
-    </section>
-
-    <!-- Call to Action / Contact Section -->
-    <section id="contacto" class="bg-rose-400 py-20 px-6 text-center">
-        <div class="container mx-auto">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 font-pacifico">¡Haz Tu Pedido Hoy Mismo!</h2>
-            <p class="text-xl text-rose-100 mb-10 max-w-2xl mx-auto">
-                ¿Listo para disfrutar de un postre inolvidable? Contáctanos y déjanos crear la dulzura perfecta para ti.
-            </p>
-            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
-                <a href="tel:+1234567890" class="flex items-center bg-white text-rose-600 hover:text-rose-800 font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                    Llámanos: (123) 456-7890
-                </a>
-                <a href="mailto:info@pastelesalegres.com" class="flex items-center bg-white text-rose-600 hover:text-rose-800 font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 13H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4"></path></svg>
-                    Escríbenos: info@pastelesalegres.com
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8 px-6">
-        <div class="container mx-auto text-center">
-            <p class="text-2xl font-pacifico mb-4">Pasteles Alegres</p>
-            <p class="text-gray-400">&copy; 2023 Pasteles Alegres. Todos los derechos reservados.</p>
-            <div class="flex justify-center space-x-6 mt-6">
-                <!-- Social Media Icons (placeholders) -->
-                <a href="#" class="text-gray-400 hover:text-rose-500 transition duration-300">
-                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22H12c5.523 0 10-4.477 10-10z" clip-rule="evenodd" />
-                    </svg>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-rose-500 transition duration-300">
-                    <svg class="w-7 h-7" fill="currentColor" viewBox="0
+    <main class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+        <section class="bg-white rounded shadow-md p-4 mb-4">
+            <h2 class="text-2xl font-bold mb-2">Nuestros Servicios</h2>
+            <ul>
+                <li class="mb-2">Diseño de Soluciones Web Personalizadas</li>
+                <li class="mb-2">Desarrollo de Aplicaciones Web y Móviles</li>
+                <li class="mb-2">Consultoría en Tecnologías de la Información</li>
+            </ul>
+        </section>
+        <section class="bg-white rounded shadow-md p-4 mb-4">
+            <h2 class="text-2xl font-bold mb-2">Nuestro Enfoque</h2>
+            <p class="text-justify">En Alesso, nos enfocamos en brindar soluciones web innovadoras y personalizadas para empresas y estudiantes tech. Nuestro equipo de expertos en diseño y desarrollo web trabaja en estrecha colaboración con nuestros clientes para entender sus necesidades y objetivos, y desarrollar soluciones que superen sus expectativas.</p>
+        </section>
+        <section class="bg-white rounded shadow-md p-4 mb-4">
+            <h2 class="text-2xl font-bold mb-2">¿Por Qué Elegirnos?</h2>
+            <ul>
+                <li class="mb-2">Experiencia y Expertise en Diseño y Desarrollo Web</li>
+                <li class="mb-2">Enfoque en la Innovación y la Calidad</li>
+                <li class="mb-2">Atención Personalizada y Soporte Técnico</li>
+            </ul>
+        </section>
+        <section class="bg-white rounded shadow-md p-4 mb-4">
+            <h2 class="text-2xl font-bold mb-2">Contáctanos</h2>
+            <p class="text-justify">Si estás interesado en saber más sobre nuestros servicios o tienes alguna pregunta, no dudes en contactarnos. Estamos aquí para ayudarte.</p>
+            <a href="#" class="bg-azul-rey text-white py-2 px-4 rounded hover:bg-azul-rey-dark">Enviar Mensaje</a>
+        </section>
+    </main>
+    <footer class="bg-azul-rey text-white p-4 text-center">
+        <p>&copy; 2023 Alesso. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
