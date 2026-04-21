@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alesso - Publicaciones Web para Ingenieros</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230F4C81' d='M12 2L1 21h22L12 2zm0 4.09L18.66 19H5.34L12 6.09zM11 10h2v5h-2zm0 6h2v2h-2z'/%3E%3C/svg%3E" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        alessoBlue: '#0F4C81', // Royal Blue
+                        alessoLightBlue: '#1F6BB1', // Slightly lighter for accents/hover
+                        alessoDarkBlue: '#0A3B65', // Darker for contrast/footer
+                        alessoGray: '#F3F4F6', // Light gray background
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'], // A modern sans-serif font
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-alessoBlue">Alesso<span class="text-alessoLightBlue">.</span></a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#hero" class="text-gray-600 hover:text-alessoBlue transition duration-300">Inicio</a>
+                <a href="#articulos" class="text-gray-600 hover:text-alessoBlue transition duration-300">Artículos</a>
+                <a href="#cursos" class="text-gray-600 hover:text-alessoBlue transition duration-300">Cursos</a>
+                <a href="#comunidad" class="text-gray-600 hover:text-alessoBlue transition duration-300">Comunidad</a>
+                <a href="#contacto" class="text-gray-600 hover:text-alessoBlue transition duration-300">Contacto</a>
+            </div>
+            <!-- Mobile menu button - will need JS for functionality, just design for now -->
+            <button class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-alessoBlue">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-gradient-to-r from-alessoBlue to-alessoLightBlue text-white py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Tu Fuente Definitiva para el Conocimiento Ingenieril
+            </h1>
+            <p class="text-lg md:text-xl mb-8 opacity-90">
+                Alesso te ofrece artículos de vanguardia, cursos especializados y una comunidad vibrante para impulsar tu carrera en ingeniería y tecnología.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#articulos" class="bg-white text-alessoBlue hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    Expl
